@@ -12,7 +12,7 @@ const io = socketio(server);
 app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.get('/user', (req, res) => {
-    res.send("hello from user");
+    res.send("Hello from User!!!");
 });
 
 
