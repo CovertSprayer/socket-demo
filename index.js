@@ -12,6 +12,7 @@ const io = socketio(server);
 app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.get('/user', (req, res) => {
+    console.log(`hey there, i am in latest branch`)
     res.send("Hello from User!!!###");
 });
 
